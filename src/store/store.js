@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 
 import { findySlice } from './findy/findySlice.js';
-import { authSlice } from './auth/authslice';
+import { authSlice } from './auth/authSlice.js';
 
 
 
