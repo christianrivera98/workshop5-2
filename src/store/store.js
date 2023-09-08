@@ -1,7 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit'
 
-import { findySlice } from './findy/findySlice'
-import { authSlice } from './auth/authslice'
+import { findySlice } from './findy/findySlice.js';
+import { authSlice } from './auth/authslice';
+
+
 
 export const store = configureStore({
   reducer: {
